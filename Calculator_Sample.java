@@ -11,20 +11,24 @@ public class Calculator {
 		System.out.println(division(a,b));
 	}
 	
-	private static int sum(int a, int b) {
-		return a + b;
+	private static int sum(int a, int b) {\
+		int result = a+b;
+		return result;
 	}
 	
 	private static int minus(int a, int b) {
-		return a - b;
+		int result = a-b;
+		return result;
 	}
 	
 	private static int multi(int a, int b) {
-		return a * b;
+		int result = a*b;
+		return result;
 	}
 	
 	private static float division(int a, int b) {
-		return a / b;
+		int result = a/b;
+		return result;
 	}
 
 }
